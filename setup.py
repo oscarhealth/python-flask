@@ -8,7 +8,7 @@ This extension provides simple integration of OpenTracing in Flask applications.
 '''
 version = open('VERSION').read()
 setup(
-    name='Flask-OpenTracing',
+    name='Flask-OpenTracing-Oscar',
     version=version,
     url='http://github.com/opentracing-contrib/python-flask',
     download_url='https://github.com/opentracing-contrib/python-flask/tarball/'+version,
@@ -23,7 +23,7 @@ setup(
     platforms='any',
     install_requires=[
         'Flask',
-        'opentracing>=1.1,<1.2'
+        'opentracing>=1.1'
     ],
     tests_require=['pytest'],
     setup_requires=['pytest-runner'],
